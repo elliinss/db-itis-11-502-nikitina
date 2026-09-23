@@ -1,0 +1,9 @@
+ALTER TABLE Students ADD COLUMN email VARCHAR(100);
+
+ALTER TABLE Teachers ADD COLUMN phone VARCHAR(20);
+
+ALTER TABLE Courses ADD COLUMN total_hours INT;
+
+ALTER TABLE Students ADD COLUMN enrollment_date DATE;
+
+ALTER TABLE Courses ALTER COLUMN credits TYPE NUMERIC(3,1);
